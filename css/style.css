@@ -1,0 +1,88 @@
+.my-nav {
+  background: #ffaa1c;
+}
+
+#navbar-collapse-1{
+  background: #0072c2;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+}
+
+#navbar-collapse-1 .btn{
+  background-color: rgba(0,0,0,0);
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}
+
+.my-nav ul {
+  margin: 10px 0;
+}
+
+.navbar-default .navbar-toggle{
+  border-color: white;
+}
+
+.navbar-header .glyphicon{
+  color: white;
+}
+
+li #nav-btn{
+  border-color: white;
+  margin-left: 10px;
+}
+
+.nav>li{
+  display: inline-block;
+}
+
+body {
+    padding-top: 70px;
+}
+
+#p-row h3{
+  margin-top: 10px;
+}
+
+#p-info{
+  margin-bottom: 20px;
+}
+
+#about, #personality{
+  padding-top: 60px;
+}
+
+#contact{
+  padding-bottom: 40px;
+}
+
+#my-avatar{
+  border-radius: 50%;
+}
+
+/*Setup for non-mobile device*/
+@media (min-width: 768px){
+  #navbar-collapse-1{
+    background: #ffaa1c;
+  }
+
+  #navbar-collapse-1 .btn:hover{
+    background-color: #0072c2;
+    border: #ffaa1c;
+  }
+
+  .navbar-default .navbar-nav>li>a:hover{
+    color: #ffaa1c;
+  }
+
+  #hr-cont{
+    width: 80%;
+  }
+
+  #about h1{
+    text-align: left;
+  }
+}
